@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {
+            "translate": "Observer"
+        },
+        "description": {
+            "translate": "Record Horse's Statistics with a Book and Quill"
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+	"parent": "rider_quest:horse_tamer",
+	"requirements":[["observer"]],
+    "criteria": {
+		"observer":{"trigger":"minecraft:impossible"}
+    }
+}

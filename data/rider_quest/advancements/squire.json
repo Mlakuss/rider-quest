@@ -1,0 +1,22 @@
+{
+	"rewards":{"recipes":["rider_quest:iron_horse_armor"]},
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_horse_armor"
+        },
+        "title": {
+            "translate": "Squire"
+        },
+        "description": {
+            "translate": "Bring your horse in the battle"
+        },
+        "show_toast": true,
+		"frame":"goal",
+        "announce_to_chat": false
+    },
+	"parent": "rider_quest:saddler",
+	"requirements":[["impossible"]],
+    "criteria": {
+		"impossible":{"trigger":"minecraft:impossible"}
+    }
+}

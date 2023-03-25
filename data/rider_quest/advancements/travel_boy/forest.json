@@ -1,0 +1,58 @@
+{
+	"rewards":{"function":"rider_quest:travel_forest"},
+	"requirements":[["birch_forest","forest_hills","forest","roofed_forest"]],
+    "criteria": {
+		"birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:birch_forest"
+            }
+          }
+        }
+      }
+    },
+		"forest_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:old_growth_birch_forest"
+            }
+          }
+        }
+      }
+    },
+		"roofed_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:dark_forest"
+            }
+          }
+        }
+      }
+    },
+		"forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:forest"
+            }
+          }
+        }
+      }
+    }
+    }
+}

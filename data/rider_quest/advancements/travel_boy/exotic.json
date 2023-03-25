@@ -1,0 +1,97 @@
+{
+	"rewards":{"function":"rider_quest:travel_exotic"},
+	"requirements":[["sky","hell","mushroom_island","Mineshaft","stone_beach","Mansion","deep_dark"]],
+    "criteria": {
+		"sky": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:the_end"
+            }
+          }
+        }
+      }
+    },
+		"hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:nether_wastes"
+            }
+          }
+        }
+      }
+    },
+		"Mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "structure": "minecraft:mineshaft"
+            }
+          }
+        }
+      }
+    },
+		"Mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "structure": "minecraft:mansion"
+            }
+          }
+        }
+      }
+    },
+		"stone_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:soul_sand_valley"
+            }
+          }
+        }
+      }
+    },
+		"mushroom_island": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:mushroom_fields"
+            }
+          }
+        }
+      }
+    },
+		"deep_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:deep_dark"
+            }
+          }
+        }
+      }
+    }
+    }
+}

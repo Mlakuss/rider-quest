@@ -1,0 +1,36 @@
+{
+    "rewards": {"function":"rider_quest:boss_on_horse"},
+    "criteria": {
+        "dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            }
+        },
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "elder_guardian",
+            "dragon",
+            "wither"
+        ]
+    ]
+}

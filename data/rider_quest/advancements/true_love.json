@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {
+            "translate": "True Love"
+        },
+        "description": {
+            "translate": "Find the perfect horse"
+        },
+        "show_toast": true,
+		"frame":"challenge",
+		"hidden":true,
+        "announce_to_chat": true
+    },
+	"parent": "rider_quest:horse_tamer",
+	"requirements":[["love"]],
+    "criteria": {
+		"love":{"trigger":"minecraft:impossible"}
+    }
+}

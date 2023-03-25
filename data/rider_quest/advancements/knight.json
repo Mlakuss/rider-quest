@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {
+            "translate": "Knight"
+        },
+        "description": {
+            "translate": "Kill a boss while riding your horse"
+        },
+        "show_toast": true,
+		"frame":"challenge",
+        "announce_to_chat": true
+    },
+	"parent": "rider_quest:squire",
+	"requirements":[["impossible"]],
+    "criteria": {
+		"impossible":{"trigger":"minecraft:impossible"}
+    }
+}

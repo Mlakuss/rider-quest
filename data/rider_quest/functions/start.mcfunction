@@ -1,0 +1,1 @@
+tellraw @s {"text":"A Quest For A Rider: New Quest Started!","color":"gold"}

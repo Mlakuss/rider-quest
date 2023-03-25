@@ -1,0 +1,58 @@
+{
+	"rewards":{"function":"rider_quest:travel_plain"},
+	"requirements":[["beach","meadow","sun_plain","plains"]],
+    "criteria": {
+		"beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:beach"
+            }
+          }
+        }
+      }
+    },
+		"plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:plains"
+            }
+          }
+        }
+      }
+    },
+		"sun_plain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:sunflower_plains"
+            }
+          }
+        }
+      }
+    },
+		"meadow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:meadow"
+            }
+          }
+        }
+      }
+    }
+    }
+}

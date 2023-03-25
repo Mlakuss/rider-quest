@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_horse_armor"
+        },
+        "title": {
+            "translate": "Lad Driver"
+        },
+        "description": {
+            "translate": "Ride your horse and start your journey\n\u00A78Travel 200m"
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+	"parent": "rider_quest:root",
+	"requirements":[["impossible"]],
+    "criteria": {
+		"impossible":{"trigger":"minecraft:impossible"}
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"rewards":{"recipes":["rider_quest:golden_horse_armor"]},
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_horse_armor"
+        },
+        "title": {
+            "translate": "Travel Boy"
+        },
+        "description": {
+            "translate": "Explore different biomes with your horse"
+        },
+        "show_toast": true,
+		"frame":"goal",
+        "announce_to_chat": true
+    },
+	"parent": "rider_quest:lad_driver",
+	"requirements":[["hot_biome"],["cold_biome"],["forest"],["exotic_biome"],["plain"]],
+    "criteria": {
+		"hot_biome":{"trigger":"minecraft:impossible"},
+		"forest":{"trigger":"minecraft:impossible"},
+		"cold_biome":{"trigger":"minecraft:impossible"},
+		"exotic_biome":{"trigger":"minecraft:impossible"},
+		"plain":{"trigger":"minecraft:impossible"}
+    }
+}

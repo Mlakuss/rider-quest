@@ -1,0 +1,58 @@
+{
+	"rewards":{"function":"rider_quest:travel_hot"},
+	"requirements":[["desert","mesa","savanna","temple"]],
+    "criteria": {
+		"desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:desert"
+            }
+          }
+        }
+      }
+    },
+		"temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:jungle"
+            }
+          }
+        }
+      }
+    },
+		"mesa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:badlands"
+            }
+          }
+        }
+      }
+    },
+		"savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:savanna"
+            }
+          }
+        }
+      }
+    }
+    }
+}

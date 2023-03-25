@@ -1,0 +1,21 @@
+{
+	"rewards":{"recipes":["rider_quest:saddle"]},
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {
+            "translate": "Saddler"
+        },
+        "description": {
+            "translate": "Fully equip your mount"
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+	"parent": "rider_quest:lad_driver",
+	"requirements":[["impossible"]],
+    "criteria": {
+		"impossible":{"trigger":"minecraft:impossible"}
+    }
+}

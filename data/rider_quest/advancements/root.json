@@ -1,0 +1,27 @@
+{
+	"rewards":{"function":"rider_quest:start"},
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": {
+            "translate": "A Quest For A Rider"
+        },
+        "description": {
+            "translate": "Take profits from your fellow travelers"
+        },
+		"background": "minecraft:textures/block/hay_block_top.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+	"requirements":[["bred","bred2","kill_horse","kill_donkey","kill_skeleton_horse","tame_horse","tame_donkey"]],
+    "criteria": {
+        "kill_donkey": {"trigger":"player_killed_entity","conditions":{"entity":{"type":"donkey"}}},
+		"kill_horse":{"trigger":"player_killed_entity","conditions":{"entity":{"type":"horse"}}},
+		"kill_skeleton_horse":{"trigger":"player_killed_entity","conditions":{"entity":{"type":"skeleton_horse"}}},
+		"tame_horse":{"trigger":"minecraft:tame_animal","conditions":{"entity":{"type":"horse"}}},
+		"bred":{"trigger":"minecraft:bred_animals","conditions":{"parent":{"type":"horse"}}},
+		"bred2":{"trigger":"minecraft:bred_animals","conditions":{"parent":{"type":"donkey"}}},
+		"tame_donkey":{"trigger":"minecraft:tame_animal","conditions":{"entity":{"type":"donkey"}}}
+    }
+}

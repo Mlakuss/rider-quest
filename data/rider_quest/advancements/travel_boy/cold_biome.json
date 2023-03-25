@@ -1,0 +1,97 @@
+{
+	"rewards":{"function":"rider_quest:travel_cold"},
+	"requirements":[["ice_spikes","taiga","snowy_plains","frozen_river","frozen_peaks","cold_beach","cold_ocean"]],
+    "criteria": {
+		"ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:ice_spikes"
+            }
+          }
+        }
+      }
+    },
+		 "taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:taiga"
+            }
+          }
+        }
+      }
+    },
+		"snowy_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:snowy_plains"
+            }
+          }
+        }
+      }
+    },
+		"cold_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:cold_beach"
+            }
+          }
+        }
+      }
+    },
+		"frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:frozen_river"
+            }
+          }
+        }
+      }
+    },
+		"frozen_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:frozen_peaks"
+            }
+          }
+        }
+      }
+    },
+		"cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "#rider_quest:horses",
+            "location": {
+              "biome": "minecraft:cold_ocean"
+            }
+          }
+        }
+      }
+    }
+    }
+}

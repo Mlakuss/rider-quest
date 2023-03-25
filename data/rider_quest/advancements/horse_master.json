@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_horse_armor"
+        },
+        "title": {
+            "translate": "Horse Master"
+        },
+        "description": {
+            "translate": "You proved your true love for these animals"
+        },
+        "show_toast": true,
+		"frame":"challenge",
+        "announce_to_chat": true
+    },
+	"parent": "rider_quest:horse_observer",
+	"requirements":[["travel_far"],["tame_10"],["observe"],["squire"],["diamond_armor"]],
+    "criteria": {
+		"travel_far":{"trigger":"minecraft:impossible"},
+		"tame_10":{"trigger":"minecraft:impossible"},
+		"observe":{"trigger":"minecraft:impossible"},
+		"diamond_armor":{"trigger":"minecraft:impossible"},
+		"squire":{"trigger":"minecraft:impossible"}
+    }
+}
